@@ -4,16 +4,67 @@ console.log(
 );
 
 // Exercise 1
-console.log("EXERCISE 1:\n==========\n");
+var a=20;
+var b = 4;
+var add = a+b;
+var minus = a-b;
+var multiply = a*b;
+var divide = a/b;
+console.log(add);
 
-// YOUR CODE HERE
+
+
 
 // Exercise 2
-console.log("EXERCISE 2:\n==========\n");
+/*
+a) 1111
+b) 11eleven
+c) 12
+d) Frodo11
+e) true11
+f) "FrodoBaggins"
+*/
 
-// YOUR CODE HERE
+let num = 11;
+let str = "11";
+let str2 = "eleven";
+let isPresent = true;
+let firstName="Frodo";
+let lastName="Baggins";
+let a1 = num + str;
+let b1 = num + str2;
+let c1 = num+isPresent;
+let d1 = firstName+num;
+let e1 = isPresent+str;
+let f1 =firstName+lastName;
+console.log(f1);
+
+
 
 // Exercise 3
-console.log("EXERCISE 3:\n==========\n");
+/*
+a) true
+b) false
+c) true
+d) false
+e) true
+f) true
+g) false
+h) false
+i) true
+*/
+let val = 5;
+let str3="5";
+let str4="five";
+let isPresent2=false;
+let a2= val == str3;
+let b2= val===str3;
+let c2=!isPresent2;
+let d2=("eleven"==str4 && val>=str3);
+let e2=(!isPresent2 || isPresent2)
+let f2=0==false;
+let g2=0===false;
+let h2=0!=false;
+let i2= 0!== false;
+console.log(i2);
 
-// YOUR CODE HERE
